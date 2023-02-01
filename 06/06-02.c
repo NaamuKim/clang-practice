@@ -9,7 +9,7 @@ int main(void){
     int age = 0;
     int price = 1000;
     scanf("%d", &age);
-    printf("최종요금: %d\n", calcFee(age, price));
+    printf("최종요금: %d원\n", calcFee(age, price));
     return 0;
 }
 
