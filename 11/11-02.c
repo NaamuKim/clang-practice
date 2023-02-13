@@ -7,7 +7,7 @@ int main(void){
 
     printf("%c\n", szBuffer[0]);
     printf("%c\n", pszData[0]);
-    // %c이므로 해당 주소에 해당하는 
+    // %c이므로 해당 주소에 해당하는 배열원소나옴
     printf("%c\n", pszData[6]);
 
     printf("%s\n", szBuffer + 4);

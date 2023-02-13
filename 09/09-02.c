@@ -7,7 +7,7 @@ int main(void){
     for(i =0; i<4; i++){
         for(j=0; j<4; j++){
             if(aList[j+1]<aList[j]){
-                // 바꿔줘야함
+                // 인접한 항끼리 비교 후 교체
                 nTmp=aList[j+1];
                 aList[j+1]=aList[j];
                 aList[j]=nTmp;
