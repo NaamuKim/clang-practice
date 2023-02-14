@@ -2,7 +2,7 @@
 
 int GetLength(char* str){
     int result =0;
-    while(*str++ != NULL){
+    while(*str++ != "\0"){
         result++;
     }
     return result;
